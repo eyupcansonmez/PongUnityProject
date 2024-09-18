@@ -8,4 +8,7 @@
 *.dll
 *.dylib
 dsymutil
+*.exe
+*.iso
+*.zip
 
