@@ -1,0 +1,35 @@
+# Unity klasörleri
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+AssetStoreTools*
+
+# Visual Studio dosyaları
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.ide
+
+# MacOS dosyaları
+.DS_Store
+._*
+
+# Büyük dosyalar
+*.dll
+*.dylib
+dsymutil
+
