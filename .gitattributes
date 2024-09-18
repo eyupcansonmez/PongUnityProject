@@ -1,3 +1,29 @@
+# DLL dosyaları (Windows)
 *.dll filter=lfs diff=lfs merge=lfs -text
+
+# DYLIB dosyaları (macOS ve Unix benzeri sistemler)
 *.dylib filter=lfs diff=lfs merge=lfs -text
+
+# MacOS için dsymutil dosyaları
 dsymutil filter=lfs diff=lfs merge=lfs -text
+
+# EXE dosyaları (Windows)
+*.exe filter=lfs diff=lfs merge=lfs -text
+
+# ISO dosyaları (Disk imajları)
+*.iso filter=lfs diff=lfs merge=lfs -text
+
+# ZIP dosyaları (Sıkıştırılmış arşivler)
+*.zip filter=lfs diff=lfs merge=lfs -text
+
+# MacOS için DMG dosyaları (Disk imajları)
+*.dmg filter=lfs diff=lfs merge=lfs -text
+
+# TAR dosyaları (Arşivler)
+*.tar filter=lfs diff=lfs merge=lfs -text
+
+# GZ dosyaları (Sıkıştırılmış dosyalar)
+*.gz filter=lfs diff=lfs merge=lfs -text
+
+# 7z dosyaları (Sıkıştırılmış dosyalar)
+*.7z filter=lfs diff=lfs merge=lfs -text
