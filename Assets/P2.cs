@@ -13,6 +13,7 @@ public float moveSpeed = 5f; // Aynı hızda olduklarından emin ol
     }
 
     // Update is called once per frame
+    
     void Update()
     {
         bool isPressingUp = Input.GetKey(KeyCode.UpArrow);

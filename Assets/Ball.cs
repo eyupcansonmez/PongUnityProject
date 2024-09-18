@@ -28,10 +28,6 @@ public class Ball : MonoBehaviour
     float yVelocity = UnityEngine.Random.Range(-1, 1);
     rb.velocity = new Vector2(xVelocity * startingSpeed,yVelocity * startingSpeed);
 
-
-
-
-
     }
     
 

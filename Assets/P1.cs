@@ -6,13 +6,12 @@ public class P1 : MonoBehaviour
 {
 
     public float moveSpeed = 5f; // Aynı hızda olduklarından emin ol
-    // Start is called before the first frame update
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         bool isPressingUp = Input.GetKey(KeyCode.W);
